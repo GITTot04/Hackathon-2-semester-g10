@@ -27,7 +27,7 @@
                     "name": "Attack",
                     "type": "Button",
                     "id": "6c2ab1b8-8984-453a-af3d-a3c78ae1679a",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -1003,6 +1003,17 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+            "name": "Test",
+            "id": "801fde6b-97a1-4af8-9396-523433f92b40",
+            "actions": [
+                {
+                    "name": "TestDrag",
+                    "type": "Value",
+                    "id": "62ab1a0b-1b9c-4418-b21e-06420acd6ddd",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -1014,6 +1025,12 @@
                     "processors": "",
                     "groups": ";Touch",
                     "action": "Smacking",
+                    "id": "0286efbf-b357-49b8-95e7-93e9dcfc0440",
+                    "path": "<Touchscreen>/primaryTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Touch",
+                    "action": "TestDrag",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
