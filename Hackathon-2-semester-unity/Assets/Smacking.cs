@@ -1,19 +1,25 @@
 using UnityEngine;
-
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.LowLevel;
 public class Smacking : MonoBehaviour
+
 {
-    public float smackForce = 10f;
-    
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Smackable"))
+    public GameObject[] intertactableObject = new GameObject[10];
+    public Sprite deadFlie;
+    TouchState touch;
+    Vector2 touchStartPos;
+    private void OnSmacking()
+    { 
+        touch = Touchscreen.current.primaryTouch.value;
+        touchStartPos = Camera.main.ScreenToWorldPoint(new Vector2(touch.startPosition.x, touch.startPosition.y));
+    foreach (GameObject intertactableObject in intertactableObject)
+        if(intertactableObject !=null)
+
+
+        if (touchStartPos.x + 0.75 > intertactableObject.transform.position.x && touchStartPos.x - 0.75 < intertactableObject.transform.position.x && touchStartPos.y + 0.75 > intertactableObject.transform.position.y && touchStartPos.y - 0.75 < intertactableObject.transform.position.y)
         {
-            Rigidbody2D rb = collision.gameObject.GetComponent<Rigidbody2D>();
-            if (rb != null)
-            {
-                Vector2 smackDirection = (collision.transform.position - transform.position).normalized;
-                rb.AddForce(smackDirection * smackForce, ForceMode2D.Impulse);
-            }
+                intertactableObject.GetComponent<SpriteRenderer>().sprite = deadFlie;
+
         }
     }
 }

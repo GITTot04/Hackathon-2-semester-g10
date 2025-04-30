@@ -990,6 +990,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Smack",
+            "id": "437f1e79-4dca-4c6d-b66e-cab4be62c6d4",
+            "actions": [
+                {
+                    "name": "Smacking",
+                    "type": "Button",
+                    "id": "18eaf222-ae27-4ab7-ad47-702c9cc20e0c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6a62d9ac-1d8a-46b1-94be-59b1422f162a",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Touch",
+                    "action": "Smacking",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
