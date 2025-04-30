@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flieswatter_0: 5174522922946605551
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
