@@ -4,7 +4,9 @@ using UnityEngine.InputSystem.LowLevel;
 public class Smacking : MonoBehaviour
 
 {
+
     public GameObject[] intertactableObject = new GameObject[10];
+    public GameObject FlySwatter;
     public Sprite deadFlie;
     TouchState touch;
     Vector2 touchStartPos;
@@ -12,7 +14,8 @@ public class Smacking : MonoBehaviour
     { 
         touch = Touchscreen.current.primaryTouch.value;
         touchStartPos = Camera.main.ScreenToWorldPoint(new Vector2(touch.startPosition.x, touch.startPosition.y));
-    foreach (GameObject intertactableObject in intertactableObject)
+        FlySwatter.transform.position = touchStartPos;
+        foreach (GameObject intertactableObject in intertactableObject)
         if(intertactableObject !=null)
 
 
