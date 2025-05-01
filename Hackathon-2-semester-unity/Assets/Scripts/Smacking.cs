@@ -23,11 +23,14 @@ public class Smacking : MonoBehaviour
             {
                 if (touchStartPos.x + 0.75 > intertactableObject.transform.position.x && touchStartPos.x - 0.75 < intertactableObject.transform.position.x && touchStartPos.y + 0.75 > intertactableObject.transform.position.y && touchStartPos.y - 0.75 < intertactableObject.transform.position.y)
                 {
-                    intertactableObject.GetComponent<SpriteRenderer>().sprite = deadFlie;
-                    deadFlies++;
-                    if (deadFlies == 10)
+                    if (intertactableObject.GetComponent<SpriteRenderer>().sprite != deadFlie)
                     {
-                        nextArrow.SetActive(true);
+                        intertactableObject.GetComponent<SpriteRenderer>().sprite = deadFlie;
+                        deadFlies++;
+                        if (deadFlies == 10)
+                        {
+                            nextArrow.SetActive(true);
+                        }
                     }
                 }
             }

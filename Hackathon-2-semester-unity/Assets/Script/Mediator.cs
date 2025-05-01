@@ -25,7 +25,7 @@ public class Mediator : MonoBehaviour
         if(intertactableObject !=null)
 
 
-        if (touchStartPos.x + 0.75 > intertactableObject.transform.position.x && touchStartPos.x - 0.75 < intertactableObject.transform.position.x && touchStartPos.y + 0.75 > intertactableObject.transform.position.y && touchStartPos.y - 0.75 < intertactableObject.transform.position.y)
+        if (touchStartPos.x + 1.25 > intertactableObject.transform.position.x && touchStartPos.x - 1.25 < intertactableObject.transform.position.x && touchStartPos.y + 2 > intertactableObject.transform.position.y && touchStartPos.y - 0.5 < intertactableObject.transform.position.y)
         {
                 intertactableObject.GetComponent<Image>().sprite = intertactableObject.GetComponent<MatchingPairsGame>().Cardfront;
                 for (int i = 0; i < ChosenCards.Length; i++)

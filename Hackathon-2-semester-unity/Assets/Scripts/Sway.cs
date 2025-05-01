@@ -15,8 +15,7 @@ public class Sway : MonoBehaviour
     int timesMatched;
     GameObject nextArrow;
     GameObject child;
-    /*
-     * This doesn't work consistently
+
     private void OnEnable()
     {
         if (Input.gyro.enabled != true)
@@ -29,7 +28,6 @@ public class Sway : MonoBehaviour
     {
         Input.gyro.enabled = false;
     }
-    */
     private void Awake()
     {
         nextArrow = GameObject.Find("Næste Pil");
