@@ -13,6 +13,8 @@ public class Mediator : MonoBehaviour
     Vector2 touchStartPos;
     public GameObject[] ChosenCards = new GameObject[2];
     private bool cardFillped = false;
+    public GameObject nextArrow;
+    int pairsMade;
     private void OnClick()
     { 
         if (!cardFillped)
@@ -56,7 +58,12 @@ public class Mediator : MonoBehaviour
         if (ChosenCards[0].GetComponent<MatchingPairsGame>().ID == ChosenCards[1].GetComponent<MatchingPairsGame>().ID) 
         {
             Destroy(ChosenCards[0]);    
-            Destroy(ChosenCards[1]); 
+            Destroy(ChosenCards[1]);
+            pairsMade++;
+            if (pairsMade == 6)
+            {
+                nextArrow.SetActive(true);
+            }
         }
         else
         {

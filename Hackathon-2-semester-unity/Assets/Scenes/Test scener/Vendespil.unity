@@ -652,7 +652,6 @@ GameObject:
   - component: {fileID: 750149917}
   - component: {fileID: 750149922}
   - component: {fileID: 750149924}
-  - component: {fileID: 750149923}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -806,34 +805,6 @@ MonoBehaviour:
   m_Spacing: {x: 30, y: 30}
   m_Constraint: 1
   m_ConstraintCount: 4
---- !u!114 &750149923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750149916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0af29cd3c5801499d80275c2ebc22bf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  intertactableObject:
-  - {fileID: 89024590}
-  - {fileID: 1520176365}
-  - {fileID: 1991496682}
-  - {fileID: 1306821504}
-  - {fileID: 815653378}
-  - {fileID: 919820819}
-  - {fileID: 646168051}
-  - {fileID: 639329250}
-  - {fileID: 1245285933}
-  - {fileID: 1427684115}
-  - {fileID: 1183371776}
-  - {fileID: 354363954}
-  ChosenCards:
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &750149924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -861,7 +832,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Cliked
+  m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!1 &815653378
