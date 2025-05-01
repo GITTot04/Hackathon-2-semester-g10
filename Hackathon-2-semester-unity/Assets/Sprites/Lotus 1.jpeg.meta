@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lotus 1_0: -8317670610642348895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

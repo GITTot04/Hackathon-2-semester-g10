@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Peony_0: 4808221541964511255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

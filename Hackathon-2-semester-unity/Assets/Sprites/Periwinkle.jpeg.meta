@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Periwinkle_0: 3042127274653301699
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
