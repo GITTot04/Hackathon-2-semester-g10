@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Sway.unity
+    path: Assets/Scenes/Test scener/Sway.unity
     guid: 231d50b6f58a0bf4a8f789bab04c7e8c
   - enabled: 1
-    path: Assets/Scenes/Christians scene.unity
+    path: Assets/Scenes/Test scener/Christians scene.unity
     guid: 680945bd3969dc048b38f4e7809d02c2
   - enabled: 1
-    path: Assets/Scenes/Christians(1) scene 1.unity
+    path: Assets/Scenes/Test scener/Christians(1) scene 1.unity
     guid: 1818f025e8ce308409606a6cd396a81b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

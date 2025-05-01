@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lukket skraldespand_0: 5441767121299391352
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
