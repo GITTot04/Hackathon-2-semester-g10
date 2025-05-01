@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 585709659}
   - component: {fileID: 585709662}
   - component: {fileID: 585709661}
+  - component: {fileID: 585709663}
   m_Layer: 0
   m_Name: Vandkande_0
   m_TagString: Untagged
@@ -281,6 +282,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.0900838, y: 2.3400002}
   m_EdgeRadius: 0
+--- !u!114 &585709663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585709658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d90977f1b2ba5447a5780491edd350a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reachedDestination: 0
 --- !u!1 &677925708
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,6 +308,7 @@ GameObject:
   - component: {fileID: 677925709}
   - component: {fileID: 677925712}
   - component: {fileID: 677925713}
+  - component: {fileID: 677925714}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -446,6 +461,36 @@ MonoBehaviour:
   currentDraggableObject: {fileID: 0}
   objectiveDone: 0
   newSprite: {fileID: 1480761091545245664, guid: 053ecc88ac7ca37469b9674bccfc51c4, type: 3}
+--- !u!114 &677925714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677925708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Test
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &779659132
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,7 +504,7 @@ GameObject:
   - component: {fileID: 779659135}
   m_Layer: 0
   m_Name: 2PotNoSpireWet_0
-  m_TagString: Untagged
+  m_TagString: Destination
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

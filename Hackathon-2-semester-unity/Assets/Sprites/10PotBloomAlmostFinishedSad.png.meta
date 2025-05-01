@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      10PotBloomAlmostFinishedSad_0: 2537540079186539642
+      10PotBloomAlmostFinishedSad_1: -3457781495076597451
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

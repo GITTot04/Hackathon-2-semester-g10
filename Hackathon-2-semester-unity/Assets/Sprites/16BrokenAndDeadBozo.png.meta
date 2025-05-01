@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      16BrokenAndDeadBozo_0: 1320863454420159291
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

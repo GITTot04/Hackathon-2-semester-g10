@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      15.4FullBloomFourLeafLost_0: 1992702879209402942
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
