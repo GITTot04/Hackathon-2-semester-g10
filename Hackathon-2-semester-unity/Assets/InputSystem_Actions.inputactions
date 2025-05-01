@@ -1003,6 +1003,23 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0d4aec5f-3905-437d-be97-1ca0aebc3ca5",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Touch",
+                    "action": "Smacking",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
             "name": "Test",
             "id": "801fde6b-97a1-4af8-9396-523433f92b40",
             "actions": [
@@ -1020,12 +1037,6 @@
                 {
                     "name": "",
                     "id": "6a62d9ac-1d8a-46b1-94be-59b1422f162a",
-                    "path": "<Touchscreen>/Press",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Touch",
-                    "action": "Smacking",
-                    "id": "0286efbf-b357-49b8-95e7-93e9dcfc0440",
                     "path": "<Touchscreen>/primaryTouch",
                     "interactions": "",
                     "processors": "",
