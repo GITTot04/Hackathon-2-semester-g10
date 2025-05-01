@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 87ced94f292876f4eb1d20d40d3b4e1d
+guid: 55e1345883f5b4fb5bc7fafb4725f10b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 742770001753298655
-    second: Baggrund_0
+      213: 6472976189722196051
+    second: "Sk\xE6rmbillede 2025-05-01 kl. 13.38.18_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Baggrund_0
+      name: "Sk\xE6rmbillede 2025-05-01 kl. 13.38.18_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3088
-        height: 1440
+        width: 2360
+        height: 1640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd652589169de4a00800000000000000
-      internalID: 742770001753298655
+      spriteID: 358f3fb9c81a4d950800000000000000
+      internalID: 6472976189722196051
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Baggrund_0: 742770001753298655
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

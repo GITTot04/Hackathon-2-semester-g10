@@ -990,6 +990,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Cliked",
+            "id": "d8935a2b-af1b-4857-baa0-f9e73e3f36cd",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "cc8bde2d-ebf8-4b1a-bd1c-25aec9033172",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "33ccd4d0-6462-4f55-a36d-ef5604cd9c7a",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Touch",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
