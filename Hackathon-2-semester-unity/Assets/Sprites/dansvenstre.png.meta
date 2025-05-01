@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dansvenstre_0: -2266257867786073857
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

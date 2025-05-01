@@ -6,14 +6,62 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Test scener/Sway.unity
-    guid: 231d50b6f58a0bf4a8f789bab04c7e8c
+    path: Assets/Scenes/Familien venter barn.unity
+    guid: 31e70204f5fd641469ddb890ab340bb4
   - enabled: 1
-    path: Assets/Scenes/Test scener/Christians scene.unity
-    guid: 680945bd3969dc048b38f4e7809d02c2
+    path: Assets/Scenes/Minigame_Vand.unity
+    guid: 61f28a2363f57414cb94d43cdde56a83
   - enabled: 1
-    path: Assets/Scenes/Test scener/Christians(1) scene 1.unity
-    guid: 1818f025e8ce308409606a6cd396a81b
+    path: "Assets/Scenes/Barnet er f\xF8dt.unity"
+    guid: 10ba0afa6c8f64a408142afa207564b8
+  - enabled: 1
+    path: "Assets/Scenes/Minigame_G\xF8dning.unity"
+    guid: fe48f5e0f9e50514fb3cb0a07f9c97eb
+  - enabled: 1
+    path: "Assets/Scenes/Barnet l\xE6rer at g\xE5.unity"
+    guid: 8a06d3fa86287ff4f87daa850dc703c2
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Vippe.unity
+    guid: 9a91d325facfca2439a14391908c400f
+  - enabled: 1
+    path: "Assets/Scenes/Barnet har f\xF8rste skoledag.unity"
+    guid: 2d8a381c5ffe0e84cb472e54f06c04a0
+  - enabled: 1
+    path: Assets/Scenes/Fluer.unity
+    guid: 41501cd47cdc3fc4ea95ef132cdbf498
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Fluer.unity
+    guid: ef9240f13cdbc0449a1a597cc6fb4bb2
+  - enabled: 1
+    path: "Assets/Scenes/Barnet f\xE5r sit f\xF8rste crush.unity"
+    guid: 86459c76644aa624dbbb2af37d95220d
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Vendespil.unity
+    guid: 25ca6d8843a6902428211005f4826000
+  - enabled: 1
+    path: Assets/Scenes/Barnet mister crush.unity
+    guid: 7f6cbc8ba1536a0479a49f7582c005ec
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Skyer.unity
+    guid: b8eccb5ee1e00c84d9a544731ff37847
+  - enabled: 1
+    path: "Assets/Scenes/Barnet starter p\xE5 gymnasiet.unity"
+    guid: a350fe06ce39d95439930ad3e69fb7f5
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Flyt Plante.unity
+    guid: dc634024b1162bc4ba185a046031f51f
+  - enabled: 1
+    path: Assets/Scenes/Barnet kigger efter lejlighed.unity
+    guid: c5d61075fa8e6cc449723bdcd0da01b3
+  - enabled: 1
+    path: Assets/Scenes/Minigame_Blade.unity
+    guid: 9ac1cd8728f645a4b8850d7f64311a47
+  - enabled: 1
+    path: Assets/Scenes/Barnet flytter ud.unity
+    guid: d223765f51796b24b9dc2282b8b436d4
+  - enabled: 1
+    path: Assets/Scenes/Slut.unity
+    guid: 9001cbd586b92cf4aa9fb42b07f76f1f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

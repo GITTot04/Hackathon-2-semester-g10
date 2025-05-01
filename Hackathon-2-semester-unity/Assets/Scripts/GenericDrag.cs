@@ -27,7 +27,7 @@ public class GenericDrag : MonoBehaviour
             {
                 if (interactableObject != null)
                 {
-                    if (touchStartPos.x + 0.75 > interactableObject.transform.position.x && touchStartPos.x - 0.75 < interactableObject.transform.position.x && touchStartPos.y + 0.75 > interactableObject.transform.position.y && touchStartPos.y - 0.75 < interactableObject.transform.position.y)
+                    if (touchStartPos.x + 1 > interactableObject.transform.position.x && touchStartPos.x - 1 < interactableObject.transform.position.x && touchStartPos.y + 1 > interactableObject.transform.position.y && touchStartPos.y - 1 < interactableObject.transform.position.y)
                     {
                         dragging = true;
                         currentDraggableObject = interactableObject;
