@@ -1,27 +1,27 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using System.Collections;
 using UnityEngine.UI;
 
-public class SceneLoader : MonoBehaviour
+public class FadeIn : MonoBehaviour
 {
     public GameObject fadeScreen;
     float timeToFade = 4;
     float timeSpentFading;
-    public void NextScene()
+    private void Start()
     {
         fadeScreen.SetActive(true);
-        StartCoroutine(FadeToNextScene());
+        fadeScreen.GetComponent<Image>().color = new Color(0, 0, 0, 1);
+        StartCoroutine(FadeInCoroutine());
     }
 
-    IEnumerator FadeToNextScene()
+    IEnumerator FadeInCoroutine()
     {
         while (timeSpentFading < timeToFade)
         {
             timeSpentFading += Time.deltaTime;
-            fadeScreen.GetComponent<Image>().color = new Color(0, 0, 0, timeSpentFading / timeToFade);
+            fadeScreen.GetComponent<Image>().color = new Color(0, 0, 0, 1 - (timeSpentFading / timeToFade));
             yield return null;
         }
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        fadeScreen.SetActive(false);
     }
 }

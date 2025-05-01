@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 053ecc88ac7ca37469b9674bccfc51c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2575932063609710262
+    second: Vandende vandkande_0
+  - first:
+      213: 1136815814230987330
+    second: Vandende vandkande_1
+  - first:
+      213: -6279144592925572572
+    second: Vandende vandkande_2
+  - first:
+      213: 1480761091545245664
+    second: Vandende vandkande_3
+  - first:
+      213: 1308066678054652738
+    second: Vandende vandkande_4
+  - first:
+      213: -6213921206716994929
+    second: Vandende vandkande_5
+  - first:
+      213: -617189645506661860
+    second: Vandende vandkande_6
+  - first:
+      213: 6412346353045833853
+    second: Vandende vandkande_7
+  - first:
+      213: 7338248229803706685
+    second: Vandende vandkande_8
+  - first:
+      213: 1237020402674680007
+    second: Vandende vandkande_9
+  - first:
+      213: 6781179734428063439
+    second: Vandende vandkande_10
+  - first:
+      213: -1876257267582022849
+    second: Vandende vandkande_11
+  - first:
+      213: 931396187822826396
+    second: Vandende vandkande_12
+  - first:
+      213: -8649802349654561545
+    second: Vandende vandkande_13
+  - first:
+      213: 8108432300070615668
+    second: Vandende vandkande_14
+  - first:
+      213: -121855836640373723
+    second: Vandende vandkande_15
+  - first:
+      213: 1316628498832446802
+    second: Vandende vandkande_16
+  - first:
+      213: 7677098671336433006
+    second: Vandende vandkande_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vandende vandkande_0
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 635
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6eef0609c8fb320800000000000000
+      internalID: 2575932063609710262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_1
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 630
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242d84eb5f7c6cf00800000000000000
+      internalID: 1136815814230987330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_2
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 631
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4224b55d24ffbd8a0800000000000000
+      internalID: -6279144592925572572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_3
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 492
+        width: 348
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e726ca0e58bc8410800000000000000
+      internalID: 1480761091545245664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_4
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 571
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b09f796bf272210800000000000000
+      internalID: 1308066678054652738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_5
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 593
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8aed53d597b3c9a0800000000000000
+      internalID: -6213921206716994929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_6
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 607
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12b684994d4f67f0800000000000000
+      internalID: -617189645506661860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_7
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 588
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d788116b80b3df850800000000000000
+      internalID: 6412346353045833853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_8
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 568
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39c613a2e1b6d560800000000000000
+      internalID: 7338248229803706685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_9
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 571
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0c5519087ca2110800000000000000
+      internalID: 1237020402674680007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_10
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 533
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc699ac4a079b1e50800000000000000
+      internalID: 6781179734428063439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_11
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 551
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b478ab4f136f5e0800000000000000
+      internalID: -1876257267582022849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_12
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 528
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c932558e5ebfcec00800000000000000
+      internalID: 931396187822826396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_13
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 534
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc2083779ab5f780800000000000000
+      internalID: -8649802349654561545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_14
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 509
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a33037730f68070800000000000000
+      internalID: 8108432300070615668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_15
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 517
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5241e3f13c41f4ef0800000000000000
+      internalID: -121855836640373723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_16
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 502
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2555016d4aa954210800000000000000
+      internalID: 1316628498832446802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vandende vandkande_17
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 495
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65a1aa01988a8a60800000000000000
+      internalID: 7677098671336433006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 735c32810d696c545b51d213ee72c3d8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vandende vandkande_0: 2575932063609710262
+      Vandende vandkande_1: 1136815814230987330
+      Vandende vandkande_10: 6781179734428063439
+      Vandende vandkande_11: -1876257267582022849
+      Vandende vandkande_12: 931396187822826396
+      Vandende vandkande_13: -8649802349654561545
+      Vandende vandkande_14: 8108432300070615668
+      Vandende vandkande_15: -121855836640373723
+      Vandende vandkande_16: 1316628498832446802
+      Vandende vandkande_17: 7677098671336433006
+      Vandende vandkande_2: -6279144592925572572
+      Vandende vandkande_3: 1480761091545245664
+      Vandende vandkande_4: 1308066678054652738
+      Vandende vandkande_5: -6213921206716994929
+      Vandende vandkande_6: -617189645506661860
+      Vandende vandkande_7: 6412346353045833853
+      Vandende vandkande_8: 7338248229803706685
+      Vandende vandkande_9: 1237020402674680007
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
