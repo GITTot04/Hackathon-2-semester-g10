@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: be664a3beda994b3291758a6fb3c2543
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7044070966531542363
+    second: red flower_0
+  - first:
+      213: 6105894637175194394
+    second: red flower_1
+  - first:
+      213: -5339662344141376486
+    second: red flower_2
+  - first:
+      213: 2668032563789628225
+    second: red flower_3
+  - first:
+      213: 4909292598970773669
+    second: red flower_4
+  - first:
+      213: -7930223037768793361
+    second: red flower_5
+  - first:
+      213: -2969116557063805681
+    second: red flower_6
+  - first:
+      213: 1973213971520393840
+    second: red flower_7
+  - first:
+      213: 8069230418237162568
+    second: red flower_8
+  - first:
+      213: 2539699529902698862
+    second: red flower_9
+  - first:
+      213: -9054617695564978654
+    second: red flower_10
+  - first:
+      213: 3716051004644575499
+    second: red flower_11
+  - first:
+      213: -2931813923326927836
+    second: red flower_12
+  - first:
+      213: 3319992002274914364
+    second: red flower_13
+  - first:
+      213: 8498845997733116129
+    second: red flower_14
+  - first:
+      213: 8470543579553249909
+    second: red flower_15
+  - first:
+      213: 2513088113628034058
+    second: red flower_16
+  - first:
+      213: -1824150131048192479
+    second: red flower_17
+  - first:
+      213: -811822860526995524
+    second: red flower_18
+  - first:
+      213: 3073158009992818516
+    second: red flower_19
+  - first:
+      213: -8332909733415926217
+    second: red flower_20
+  - first:
+      213: 3496252960085487182
+    second: red flower_21
+  - first:
+      213: -1704667884829537882
+    second: red flower_22
+  - first:
+      213: 7238307589674101500
+    second: red flower_23
+  - first:
+      213: -8731418257787634654
+    second: red flower_24
+  - first:
+      213: -5578369489540263584
+    second: red flower_25
+  - first:
+      213: -3424625336866688706
+    second: red flower_26
+  - first:
+      213: 7109318360240789613
+    second: red flower_27
+  - first:
+      213: -5335065952295917263
+    second: red flower_28
+  - first:
+      213: -8078051458105566426
+    second: red flower_29
+  - first:
+      213: -8698233500417189317
+    second: red flower_30
+  - first:
+      213: 96141454612360286
+    second: red flower_31
+  - first:
+      213: 3616233562565406234
+    second: red flower_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red flower_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 946
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d41c4193191c160800000000000000
+      internalID: 7044070966531542363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 13
+        width: 652
+        height: 1088
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a134ac472de7cb450800000000000000
+      internalID: 6105894637175194394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_2
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1090
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a147ce48365b5e5b0800000000000000
+      internalID: -5339662344141376486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_3
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 946
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1430bdd1b71c60520800000000000000
+      internalID: 2668032563789628225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_4
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1065
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a07b14bb9f412440800000000000000
+      internalID: 4909292598970773669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_5
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1090
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe20c2cc92032f190800000000000000
+      internalID: -7930223037768793361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_6
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1008
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f052b7fe8349bc6d0800000000000000
+      internalID: -2969116557063805681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_7
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1045
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0729f4e07a3426b10800000000000000
+      internalID: 1973213971520393840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_8
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 947
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8448dc1105aabff60800000000000000
+      internalID: 8069230418237162568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_9
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 978
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61b31c3443de3320800000000000000
+      internalID: 2539699529902698862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_10
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 862
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22622e6ed29875280800000000000000
+      internalID: -9054617695564978654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_11
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 614
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09c21343b0129330800000000000000
+      internalID: 3716051004644575499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_12
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 786
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cdd8825ca1057d0800000000000000
+      internalID: -2931813923326927836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_13
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 811
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30fbb0d22bf21e20800000000000000
+      internalID: 3319992002274914364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_14
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 728
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8f1a7f767f1f570800000000000000
+      internalID: 8498845997733116129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_15
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 766
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57abcb9b18a6d8570800000000000000
+      internalID: 8470543579553249909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_16
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 668
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a043e0e035840e220800000000000000
+      internalID: 2513088113628034058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 699
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126e3edde115fa6e0800000000000000
+      internalID: -1824150131048192479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 345
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb73fb9d863dbb4f0800000000000000
+      internalID: -811822860526995524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_19
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 464
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fa4448dec06aa20800000000000000
+      internalID: 3073158009992818516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_20
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 489
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73649524fbe8b5c80800000000000000
+      internalID: -8332909733415926217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_21
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 407
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4eadc21b8f258030800000000000000
+      internalID: 3496252960085487182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_22
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 444
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a908b8279dc758e0800000000000000
+      internalID: -1704667884829537882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_23
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 346
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfae9811762a37460800000000000000
+      internalID: 7238307589674101500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_24
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 377
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c35370b55c3d680800000000000000
+      internalID: -8731418257787634654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_25
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 261
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06153163186a592b0800000000000000
+      internalID: -5578369489540263584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_26
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 13
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31324b86694970d0800000000000000
+      internalID: -3424625336866688706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_27
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 185
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d689051c16f59a260800000000000000
+      internalID: 7109318360240789613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_28
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 210
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139ee1468c906f5b0800000000000000
+      internalID: -5335065952295917263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_29
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 127
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b9a4a8ffef4ef80800000000000000
+      internalID: -8078051458105566426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_30
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 165
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a1b3277baa94780800000000000000
+      internalID: -8698233500417189317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_31
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 67
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ceb52c420955100800000000000000
+      internalID: 96141454612360286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red flower_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 98
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e6e89f3417f2230800000000000000
+      internalID: 3616233562565406234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      red flower_0: 7044070966531542363
+      red flower_1: 6105894637175194394
+      red flower_10: -9054617695564978654
+      red flower_11: 3716051004644575499
+      red flower_12: -2931813923326927836
+      red flower_13: 3319992002274914364
+      red flower_14: 8498845997733116129
+      red flower_15: 8470543579553249909
+      red flower_16: 2513088113628034058
+      red flower_17: -1824150131048192479
+      red flower_18: -811822860526995524
+      red flower_19: 3073158009992818516
+      red flower_2: -5339662344141376486
+      red flower_20: -8332909733415926217
+      red flower_21: 3496252960085487182
+      red flower_22: -1704667884829537882
+      red flower_23: 7238307589674101500
+      red flower_24: -8731418257787634654
+      red flower_25: -5578369489540263584
+      red flower_26: -3424625336866688706
+      red flower_27: 7109318360240789613
+      red flower_28: -5335065952295917263
+      red flower_29: -8078051458105566426
+      red flower_3: 2668032563789628225
+      red flower_30: -8698233500417189317
+      red flower_31: 96141454612360286
+      red flower_32: 3616233562565406234
+      red flower_4: 4909292598970773669
+      red flower_5: -7930223037768793361
+      red flower_6: -2969116557063805681
+      red flower_7: 1973213971520393840
+      red flower_8: 8069230418237162568
+      red flower_9: 2539699529902698862
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
