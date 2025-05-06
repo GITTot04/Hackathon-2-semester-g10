@@ -2,10 +2,9 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.LowLevel;
 public class Smacking : MonoBehaviour
-
 {
 
-    public GameObject[] intertactableObject = new GameObject[10];
+    public GameObject[] intertactableObjects = new GameObject[10];
     public GameObject FlySwatter;
     public Sprite deadFlie;
     TouchState touch;
@@ -17,7 +16,7 @@ public class Smacking : MonoBehaviour
         touch = Touchscreen.current.primaryTouch.value;
         touchStartPos = Camera.main.ScreenToWorldPoint(new Vector2(touch.startPosition.x, touch.startPosition.y));
         FlySwatter.transform.position = touchStartPos;
-        foreach (GameObject intertactableObject in intertactableObject)
+        foreach (GameObject intertactableObject in intertactableObjects)
         {
             if (intertactableObject != null)
             {
@@ -27,7 +26,7 @@ public class Smacking : MonoBehaviour
                     {
                         intertactableObject.GetComponent<SpriteRenderer>().sprite = deadFlie;
                         deadFlies++;
-                        if (deadFlies == 10)
+                        if (deadFlies == intertactableObjects.Length)
                         {
                             nextArrow.SetActive(true);
                         }
