@@ -15,7 +15,7 @@ public class Sway : MonoBehaviour
     int timesMatched;
     GameObject nextArrow;
     GameObject child;
-
+    // Enables the gyroscope
     private void OnEnable()
     {
         if (Input.gyro.enabled != true)
@@ -23,18 +23,19 @@ public class Sway : MonoBehaviour
             Input.gyro.enabled = true;
         }
     }
-
+    // DIsables the gyroscype when no longer needed
     private void OnDisable()
     {
         Input.gyro.enabled = false;
     }
+    // Sets some variables and deactivates the nextarrow
     private void Awake()
     {
         nextArrow = GameObject.Find("Næste Pil");
         nextArrow.SetActive(false);
         child = GameObject.Find("Child");
     }
-
+    // Updates the time and checks for rotation of the phone which then changes sprites on the plant based on direction
     private void Update()
     {
         if (timeSinceSway > 0)
@@ -87,6 +88,7 @@ public class Sway : MonoBehaviour
             }
         }
     }
+    // Changes the sprite of the child when the correct orientation is reached and also activates the next arrow when all objectives are done
     void CheckSway()
     {
         if (currentSprite == correctSprite)

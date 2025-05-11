@@ -14,6 +14,7 @@ public class Mediator : MonoBehaviour
     private bool cardFillped = false;
     public GameObject nextArrow;
     int pairsMade;
+    // Allows for clicking on each individual card and calls the CheckPairs() method when 2 cards have been flipped
     private void OnClick()
     {
         if (!cardFillped)
@@ -47,13 +48,15 @@ public class Mediator : MonoBehaviour
 
         }
     }
-
+    // Starts the coroutine that checks pairs with a slight delay
     void CheckPairs()
     {
 
         StartCoroutine(WaitForFilp());
     }
-
+    // Checks pairs with a slight delay and destroys them if the pair is correct
+    // Turns the cards back around if the pair is incorrect
+    // Activates the next arrow when all cards are removed
     IEnumerator WaitForFilp()
     {
         yield return new WaitForSeconds(1);

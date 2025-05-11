@@ -11,6 +11,7 @@ public class Smacking : MonoBehaviour
     Vector2 touchStartPos;
     int deadFlies;
     public GameObject nextArrow;
+    // Allows for smacking of each individual fly based on the touch position and activates the next arrow when all flyes have been swatted
     private void OnSmacking()
     { 
         touch = Touchscreen.current.primaryTouch.value;
