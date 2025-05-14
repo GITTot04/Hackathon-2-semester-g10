@@ -31,7 +31,7 @@ public class Sway : MonoBehaviour
     // Sets some variables and deactivates the nextarrow
     private void Awake()
     {
-        nextArrow = GameObject.Find("Næste Pil");
+        nextArrow = GameObject.Find("NÃ¦ste Pil");
         nextArrow.SetActive(false);
         child = GameObject.Find("Child");
     }

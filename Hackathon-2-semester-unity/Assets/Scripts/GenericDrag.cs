@@ -15,7 +15,7 @@ public class GenericDrag : MonoBehaviour
     // Finds and deactivates the next arrow
     private void Awake()
     {
-        nextArrow = GameObject.Find("Næste Pil");
+        nextArrow = GameObject.Find("NÃ¦ste Pil");
         nextArrow.SetActive(false);
     }
     // Uses the touchscreen value to determine which interactable object is being dragged if any
