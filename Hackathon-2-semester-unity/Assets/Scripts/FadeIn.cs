@@ -7,13 +7,14 @@ public class FadeIn : MonoBehaviour
     public GameObject fadeScreen;
     float timeToFade = 4;
     float timeSpentFading;
+    // Starts the fade in coroutine
     private void Start()
     {
         fadeScreen.SetActive(true);
         fadeScreen.GetComponent<Image>().color = new Color(0, 0, 0, 1);
         StartCoroutine(FadeInCoroutine());
     }
-
+    // Fades in
     IEnumerator FadeInCoroutine()
     {
         while (timeSpentFading < timeToFade)

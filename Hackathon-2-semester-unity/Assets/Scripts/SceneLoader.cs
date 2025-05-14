@@ -8,12 +8,13 @@ public class SceneLoader : MonoBehaviour
     public GameObject fadeScreen;
     float timeToFade = 4;
     float timeSpentFading;
+    // Starts the fading coroutine
     public void NextScene()
     {
         fadeScreen.SetActive(true);
         StartCoroutine(FadeToNextScene());
     }
-
+    // Fades out and swaps the scene when done
     IEnumerator FadeToNextScene()
     {
         while (timeSpentFading < timeToFade)

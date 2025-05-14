@@ -12,11 +12,15 @@ public class GenericDrag : MonoBehaviour
     public GameObject currentDraggableObject;
     GameObject nextArrow;
     public bool objectiveDone;
+    // Finds and deactivates the next arrow
     private void Awake()
     {
         nextArrow = GameObject.Find("Næste Pil");
         nextArrow.SetActive(false);
     }
+    // Uses the touchscreen value to determine which interactable object is being dragged if any
+    // Then moves the dragged object with the touch value
+    // Then activates the FinalAction() and CheckIfDone() functions if the object is left at its destination
     void OnTestDrag()
     {
         touch = Touchscreen.current.primaryTouch.value;
@@ -50,10 +54,12 @@ public class GenericDrag : MonoBehaviour
             dragging = false;
         }
     }
+    // FinalAction() for the normal draggable object is to get destroyed
     public virtual void FinalAction()
     {
         DestroyImmediate(currentDraggableObject);
     }
+    // Checks if the are more interactable objects left and if not activates the next arrow
     void CheckIfDone()
     {
         for (int i = 0; i < interactableObjects.Length; i++)

@@ -481,6 +481,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1174281114078341485, guid: 9d7d19852bb5d764db9288194c3ad43d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463353788938003383, guid: 9d7d19852bb5d764db9288194c3ad43d, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3989259748512947822, guid: 9d7d19852bb5d764db9288194c3ad43d, type: 3}
       propertyPath: m_Name
       value: Fading
