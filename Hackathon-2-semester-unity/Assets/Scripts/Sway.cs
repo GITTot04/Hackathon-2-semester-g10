@@ -30,7 +30,7 @@ public class Sway : MonoBehaviour
     }
     private void Awake()
     {
-        nextArrow = GameObject.Find("Næste Pil");
+        nextArrow = GameObject.Find("NÃ¦ste Pil");
         nextArrow.SetActive(false);
         child = GameObject.Find("Child");
     }

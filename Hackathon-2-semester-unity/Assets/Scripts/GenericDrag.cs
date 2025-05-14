@@ -14,7 +14,7 @@ public class GenericDrag : MonoBehaviour
     public bool objectiveDone;
     private void Awake()
     {
-        nextArrow = GameObject.Find("Næste Pil");
+        nextArrow = GameObject.Find("NÃ¦ste Pil");
         nextArrow.SetActive(false);
     }
     void OnTestDrag()
