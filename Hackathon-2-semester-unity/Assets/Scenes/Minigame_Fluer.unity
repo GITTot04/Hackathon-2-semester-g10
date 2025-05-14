@@ -524,7 +524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6faa129375e17f4b805357060ef52da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intertactableObject:
+  interactableObjects:
   - {fileID: 1024146217}
   - {fileID: 49609387}
   - {fileID: 1434680201}
@@ -536,7 +536,7 @@ MonoBehaviour:
   - {fileID: 1374728811}
   - {fileID: 1931524271}
   FlySwatter: {fileID: 1786122981}
-  deadFlie: {fileID: -8255756835193730025, guid: fba8e19b0c51bea4faee4ffa239160b4, type: 3}
+  deadFly: {fileID: -8255756835193730025, guid: fba8e19b0c51bea4faee4ffa239160b4, type: 3}
   nextArrow: {fileID: 779543769}
 --- !u!114 &677925714
 MonoBehaviour:

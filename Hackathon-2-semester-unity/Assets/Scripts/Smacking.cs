@@ -4,9 +4,9 @@ using UnityEngine.InputSystem.LowLevel;
 public class Smacking : MonoBehaviour
 {
 
-    public GameObject[] intertactableObjects = new GameObject[10];
+    public GameObject[] interactableObjects = new GameObject[10];
     public GameObject FlySwatter;
-    public Sprite deadFlie;
+    public Sprite deadFly;
     TouchState touch;
     Vector2 touchStartPos;
     int deadFlies;
@@ -17,17 +17,17 @@ public class Smacking : MonoBehaviour
         touch = Touchscreen.current.primaryTouch.value;
         touchStartPos = Camera.main.ScreenToWorldPoint(new Vector2(touch.startPosition.x, touch.startPosition.y));
         FlySwatter.transform.position = touchStartPos;
-        foreach (GameObject intertactableObject in intertactableObjects)
+        foreach (GameObject interactableObject in interactableObjects)
         {
-            if (intertactableObject != null)
+            if (interactableObject != null)
             {
-                if (touchStartPos.x + 0.75 > intertactableObject.transform.position.x && touchStartPos.x - 0.75 < intertactableObject.transform.position.x && touchStartPos.y + 0.75 > intertactableObject.transform.position.y && touchStartPos.y - 0.75 < intertactableObject.transform.position.y)
+                if (touchStartPos.x + 0.75 > interactableObject.transform.position.x && touchStartPos.x - 0.75 < interactableObject.transform.position.x && touchStartPos.y + 0.75 > interactableObject.transform.position.y && touchStartPos.y - 0.75 < interactableObject.transform.position.y)
                 {
-                    if (intertactableObject.GetComponent<SpriteRenderer>().sprite != deadFlie)
+                    if (interactableObject.GetComponent<SpriteRenderer>().sprite != deadFly)
                     {
-                        intertactableObject.GetComponent<SpriteRenderer>().sprite = deadFlie;
+                        interactableObject.GetComponent<SpriteRenderer>().sprite = deadFly;
                         deadFlies++;
-                        if (deadFlies == intertactableObjects.Length)
+                        if (deadFlies == interactableObjects.Length)
                         {
                             nextArrow.SetActive(true);
                         }

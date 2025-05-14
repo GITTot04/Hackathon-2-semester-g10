@@ -1464,7 +1464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0af29cd3c5801499d80275c2ebc22bf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intertactableObject:
+  interactableObjects:
   - {fileID: 2130832960}
   - {fileID: 2032673575}
   - {fileID: 2127433866}
