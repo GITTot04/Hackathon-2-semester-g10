@@ -285,6 +285,8 @@ MonoBehaviour:
   currentDraggableObject: {fileID: 0}
   objectiveDone: 0
   newSprite: {fileID: 5910044583978612718, guid: 113ed873443154e4aad23886ee22b397, type: 3}
+  oldPotSprite: {fileID: 1197490699}
+  newPotSprite: {fileID: 5910044583978612718, guid: 113ed873443154e4aad23886ee22b397, type: 3}
 --- !u!114 &677925714
 MonoBehaviour:
   m_ObjectHideFlags: 0
