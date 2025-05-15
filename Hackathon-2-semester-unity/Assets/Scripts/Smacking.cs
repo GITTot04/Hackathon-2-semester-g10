@@ -18,7 +18,7 @@ public class Smacking : MonoBehaviour
     {
         // Initialize the dead flies count and set the score text
         deadFlies = 0;
-        score.text = "Score: " + deadFlies.ToString() + "/" + interactableObjects.Length;
+        score.text = "Score: " + deadFlies + "/" + interactableObjects.Length;
 
     }
 
@@ -39,7 +39,7 @@ public class Smacking : MonoBehaviour
                         interactableObject.GetComponent<SpriteRenderer>().sprite = deadFly;
 
                         deadFlies++;
-                        score.text = "Score: " + deadFlies.ToString() + "/" + interactableObjects.Length;
+                        score.text = "Score: " + deadFlies + "/" + interactableObjects.Length;
                         if (deadFlies == interactableObjects.Length)
                         {
                             nextArrow.SetActive(true);
