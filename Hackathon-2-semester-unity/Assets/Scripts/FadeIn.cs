@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class FadeIn : MonoBehaviour
 {
     public GameObject fadeScreen;
-    float timeToFade = 4;
+    [SerializeField] float timeToFade = 1.5f;
     float timeSpentFading;
     // Starts the fade in coroutine
     private void Start()

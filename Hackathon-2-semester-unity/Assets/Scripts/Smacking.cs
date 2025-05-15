@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.LowLevel;
@@ -7,13 +8,23 @@ public class Smacking : MonoBehaviour
     public GameObject[] interactableObjects = new GameObject[10];
     public GameObject FlySwatter;
     public Sprite deadFly;
+    public TextMeshProUGUI score;
     TouchState touch;
     Vector2 touchStartPos;
     int deadFlies;
     public GameObject nextArrow;
+
+    private void Awake()
+    {
+        // Initialize the dead flies count and set the score text
+        deadFlies = 0;
+        score.text = "Score: " + deadFlies.ToString() + "/" + interactableObjects.Length;
+
+    }
+
     // Allows for smacking of each individual fly based on the touch position and activates the next arrow when all flyes have been swatted
     private void OnSmacking()
-    { 
+    {
         touch = Touchscreen.current.primaryTouch.value;
         touchStartPos = Camera.main.ScreenToWorldPoint(new Vector2(touch.startPosition.x, touch.startPosition.y));
         FlySwatter.transform.position = touchStartPos;
@@ -26,7 +37,9 @@ public class Smacking : MonoBehaviour
                     if (interactableObject.GetComponent<SpriteRenderer>().sprite != deadFly)
                     {
                         interactableObject.GetComponent<SpriteRenderer>().sprite = deadFly;
+
                         deadFlies++;
+                        score.text = "Score: " + deadFlies.ToString() + "/" + interactableObjects.Length;
                         if (deadFlies == interactableObjects.Length)
                         {
                             nextArrow.SetActive(true);
